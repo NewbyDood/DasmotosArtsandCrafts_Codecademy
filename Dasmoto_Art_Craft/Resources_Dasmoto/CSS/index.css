@@ -1,0 +1,130 @@
+* {
+    font-family: Helvetica;
+}
+
+.banner {
+    font-size: 80px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url('C:/Users/jessi/Documents/Codecademy Projects/Dasmoto_Art_Craft/Resources_Dasmoto/colored_shingles.jpg');
+    filter: drop-shadow(1px 1px 1px black);
+    text-shadow: black 0px 0px 15px;
+    width: 101%;
+    margin-top: 5px;
+}
+
+nav {
+    background-color: rgb(132, 167, 233);
+    position: absolute;
+    top: 21%;
+    width: 100%;
+}
+
+nav  {
+    display: inline;
+    padding-right: 30px;
+}
+
+a:link {
+    color: black;
+    font-size: 30px;
+    stroke: rgb(155, 100, 100);
+    text-decoration: none;
+    text-shadow: 0px 0px 10px blue;
+    font-family: cursive;
+}
+
+
+a:visited {
+    color: black;
+    text-decoration: none;
+    stroke-width: 1px;
+    text-shadow: 0px;
+}
+
+
+a:hover {
+    opacity: .70;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+
+.Brushes {
+    display: inline;
+    padding-right: 60px;
+    position: left;
+}
+.Frames {
+    display: inline;
+    padding-right: 60px;
+    position: center;
+}
+nav.Paint {
+    display: inline;
+    padding-right: 60px;
+    position: right;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product {
+    text-align: center;
+}
+
+#return {
+    color: blue;
+    text-shadow: blueviolet 3px 3px 3px 3px;
+}
+#title {
+ background-color: cadetblue;
+ font-size: 30px;
+}
+
+#footer a:link{
+    color: black;
+    text-shadow: blueviolet;
+    font-size: 30px;
+}
+#footer a:hover {
+    opacity: .70;
+    text-decoration: none;
+    font-family: cursive;
+
+}
+.footer {
+    background-image: url("C:/Users/jessi/Documents/Codecademy Projects/Dasmoto_Art_Craft/Resources_Dasmoto/pattern.webp");
+    width: 101%;
+    height: 75px;
+    margin-bottom: 5px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+.control-me::after {
+    content: "";
+    font-size: 25px;
+}
+#toggle:checked ~ .control-me::after {
+    content: "Created by NewbyDood thanks to Codecademy";
+    margin-left: 35%;
+    padding-bottom: 20%;
+}
+
+label {
+    background: cornflowerblue;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    opacity: .60;
+    margin-top: 20%;
+    margin-left: 50%;
+    margin-bottom: 50%;
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -100vw;
+}
